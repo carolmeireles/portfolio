@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { ThemeDark } from '../../themes/dark'
+import { ThemeLight } from '../../themes/light'
 
 import { Props } from '.'
 

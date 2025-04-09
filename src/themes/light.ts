@@ -7,3 +7,11 @@ const temaLight = {
 }
 
 export default temaLight
+
+export type ThemeLight = {
+  corPrincipal: string
+  corSecundaria: string
+  corDeFundo: string
+  corDeFundoBotao: string
+  corDaBorda: string
+}
