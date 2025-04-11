@@ -8,7 +8,7 @@ import temaLight from './themes/light'
 import temaDark from './themes/dark'
 
 function App() {
-  const [toggleDarkTheme, setDarkTheme] = useState(true)
+  const [toggleDarkTheme, setDarkTheme] = useState(false)
 
   function trocaTema() {
     setDarkTheme(!toggleDarkTheme)
