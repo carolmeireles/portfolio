@@ -7,40 +7,32 @@ const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <Projeto
+          titulo="Preciatta Pizzaria"
+          descricao="Site completo feito com Bootstrap"
+          link="https://preciatta-pizzaria.vercel.app/"
+        />
       </li>
       <li>
-        <Projeto />
+        <Projeto
+          titulo="Agenda de contatos"
+          descricao="Feita com JavaScript"
+          link="https://agenda-contatos-hazel.vercel.app/"
+        />
       </li>
       <li>
-        <Projeto />
+        <Projeto
+          titulo="e-Bookstore"
+          descricao="Página inicial de uma livraria"
+          link="https://e-library-rose.vercel.app/"
+        />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <Projeto
+          titulo="CosmoVision"
+          descricao="Landing-page responsiva"
+          link="https://cosmovision.vercel.app/"
+        />
       </li>
     </Lista>
   </section>
